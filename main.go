@@ -25,7 +25,7 @@ func main(){
 
     err := server.ListenAndServe()
     if err != nil{
-        fmt.Println("Failed to listen to server!", err)
+        fmt.Println("Failed to listen to server! Error ", err)
     }
 }
 
